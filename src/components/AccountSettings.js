@@ -4,7 +4,7 @@ const AccountSettings = () => {
     return (
         <div style={styles.outerContainer}>
             <div style={styles.container}>
-                <h2 style={styles.title}>Account Settings</h2> {/* ✅ Title ko upar shift kiya */}
+                <h2 style={styles.title}>Account Settings</h2> 
                 <div style={styles.profile}>
                     <img src="/profile.jpg" alt="Profile" style={styles.profileImage} />
                     <div>
@@ -40,19 +40,19 @@ const styles = {
         alignItems: "flex-start",
         textAlign: "left",
         padding: "20px",
-        backgroundColor: "#FFFFFF", // ✅ Background color white
-        justifyContent: "flex-start", // ✅ Content ko upar shift kiya
+        backgroundColor: "#FFFFFF", 
+        justifyContent: "flex-start",
     },
     title: {
         fontSize: "18px",
-        fontWeight: "normal", // ✅ Bold hataya
+        fontWeight: "normal",
         marginBottom: "10px",
-        alignSelf: "flex-start", // ✅ Title left se start hoga
-        marginTop: "0px", // ✅ Top pe shift kiya
-        paddingBottom: "5px", // ✅ Line aur title ke beech gap halka
-        borderBottom: "1px solid #E0E0E0", // ✅ Bilkul patli si halka grey color ki line
-        width: "100%", // ✅ Full width me line dikhayega
-        backgroundColor: "white", // ✅ Pure white background
+        alignSelf: "flex-start", 
+        marginTop: "0px",
+        paddingBottom: "5px", 
+        borderBottom: "1px solid #E0E0E0", 
+        width: "100%",
+        backgroundColor: "white", 
     },
     
     
