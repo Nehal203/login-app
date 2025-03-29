@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import AccountSettings from "./AccountSettings"; // ✅ AccountSettings Component Import Kiya
+import AccountSettings from "./AccountSettings"; 
 
 const Login = () => {
-  const [loggedIn, setLoggedIn] = useState(false); // ✅ Track karne ke liye state
+  const [loggedIn, setLoggedIn] = useState(false); 
 
   if (loggedIn) {
-    return <AccountSettings />; // ✅ Login ke baad Account Settings Page dikhao
+    return <AccountSettings />; 
   }
 
   return (
@@ -30,13 +30,12 @@ const Login = () => {
 
         <button style={styles.loginButton} onClick={() => setLoggedIn(true)}>
           Login
-        </button> {/* ✅ Button Click hote hi Page Change */}
+        </button> 
       </div>
     </div>
   );
 };
 
-// ✅ Styles Same Rakhe
 const styles = {
   outerContainer: {
     display: "flex",
